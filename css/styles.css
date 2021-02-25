@@ -1,0 +1,189 @@
+/*Первичный цвет #757575 */
+/* Вторичный цвет для заголовков #212121 */
+/* #FFFFFF; */
+/*акцент на  #2196F3;*/
+/* бекграунд первиный  #E5E5E5; #FFFFFF */
+/* бекграунд вторичный  #FFFFFF; */
+/* бекграунд дополнителный #2F303A */
+/* бекграунд дополнителный2 #F5F4FA; */
+/* Первичный шрифт  'Roboto', sans-serif;*/
+/* Вторичный шрифт  'Raleway',sans-serif;*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --additional-text-color: #ffffff;
+  --accent-text-color: #2196f3;
+  --primary-bgr-color: #e5e5e5;
+  --bg-additional-color: #2f303a;
+  --accent-bg-color: #2196f3;
+  --bg-additional2-color: #f5f4fa;
+  --primary-font: 'Roboto', sans-serif;
+  --second-font: 'Raleway', sans-serif;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bgr-color);
+  font-family: var(--primary-font);
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* header */
+.page-header {
+  background-color: #ffffff;
+}
+.logo {
+  color: #000000;
+  font-family: var(--second-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-title {
+  color: var(--accent-text-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+  color: var(--accent-text-color);
+}
+.site-nav .current.link {
+  color: var(--accent-text-color);
+}
+
+.contact-header {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact .contact-header:focus,
+.contact .contact-header:hover {
+  color: var(--accent-text-color);
+}
+/* hero */
+.hero {
+  background-color: var(--bg-additional-color);
+}
+.hero-title {
+  color: var(--additional-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn {
+  color: var(--additional-text-color);
+  background-color: var(--accent-bg-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #188ce8;
+}
+/* section */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+}
+/* features */
+.features .features-title {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* Team */
+.employees {
+  background-color: var(--bg-additional2-color);
+}
+.team .team-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+}
+/* footer */
+.page-footer {
+  background-color: var(--bg-additional-color);
+}
+.studio {
+  color: var(--additional-text-color);
+}
+.address-menu {
+  font-style: normal;
+}
+.address-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.map {
+  color: var(--additional-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* main портфолио */
+.filter-btn {
+  color: var(--title-text-color);
+  background-color: var(--bg-additional2-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  font-style: inherit;
+  border-radius: 4px;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-text-color);
+  color: var(--additional-text-color);
+}
+.project-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.project-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+}
