@@ -24,6 +24,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--primary-bgr-color);
   font-family: var(--primary-font);
+  font-weight: normal;
   letter-spacing: 0.03em;
 }
 .list {
@@ -117,7 +118,6 @@ body {
   text-transform: uppercase;
 }
 .features-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -132,7 +132,6 @@ body {
   line-height: 1.19;
 }
 .team-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -148,13 +147,13 @@ body {
 }
 .address-footer {
   color: rgba(255, 255, 255, 0.6);
-  font-weight: normal;
+
   font-size: 14px;
   line-height: 1.71;
 }
 .map {
   color: var(--additional-text-color);
-  font-weight: normal;
+
   font-size: 14px;
   line-height: 1.71;
 }
@@ -182,8 +181,8 @@ body {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
+
 .project-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
 }
